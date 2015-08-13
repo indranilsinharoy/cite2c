@@ -12785,10 +12785,10 @@ CSL.Output.Formats.prototype.html = {
         return "\n\n    <div class=\"csl-block\">" + str + "</div>\n";
     },
     "@display/left-margin": function (state, str) {
-        return "\n    <div class=\"csl-left-margin\">" + str + "</div>";
+        return "\n    <span class=\"csl-left-margin\">" + str + "</span>";
     },
     "@display/right-inline": function (state, str) {
-        return "<div class=\"csl-right-inline\">" + str + "</div>\n  ";
+        return "<span class=\"csl-right-inline\">" + str + "</span>\n  ";
     },
     "@display/indent": function (state, str) {
         return "<div class=\"csl-indent\">" + str + "</div>\n  ";
